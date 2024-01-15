@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="379" Width="672">
+    <Grid>
+        <StackPanel>
+            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="Sufiyaan Usmani" Height="22"/>
+            <ListBox Height="100" SelectionChanged="ListBox_SelectionChanged" HorizontalAlignment="Center" Width="100.63">
+                <TextBlock TextWrapping="Wrap" Text="Item 1"/>
+                <TextBlock TextWrapping="Wrap" Text="Item 2"/>
+                <TextBlock TextWrapping="Wrap" Text="Item 3"/>
+                <TextBlock TextWrapping="Wrap" Text="Item 4"/>
+            </ListBox>
+            <Button Content="Click Me" Click="Button_Click" Margin="0,20,0,0" Width="619"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
